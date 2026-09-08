@@ -11,4 +11,4 @@ pi = 3.1415
 area = float(input())
 rad = math.sqrt( area / pi )
 cirum = 2 * pi * rad
-print("Circumfrence of the circle is", cirum)
+print("Circumference of the circle is", cirum)
