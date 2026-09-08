@@ -6,10 +6,8 @@
 #Description: e.g. This program asks the user for two prices, applies a discount,
 #applies a sales tax, then presents the final total.
 
-print("Price of item 1:", end=" ")
-item1 = float(input())
-print("Price of item 2:", end=" ")
-item2 = float(input())
+item1 = float(input("Enter the price of item 1: "))
+item2 = float(input("Enter the price of item 2: "))
 subtotal = (item1 + item2) * 0.6
 print(subtotal)
 finalTotal = subtotal + subtotal * 0.0825

@@ -8,8 +8,7 @@
 
 import math
 pi = 3.1415
-print("Enter the area:", end=" ")
-area = float(input())
+area = float(input("Enter the area: "))
 rad = math.sqrt( area / pi )
 cirum = 2 * pi * rad
 print("Circumfrence of the circle is ", cirum)

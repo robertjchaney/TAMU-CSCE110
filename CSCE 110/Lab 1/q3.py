@@ -6,8 +6,7 @@
 #Description: e.g. This program asks the user for number of days as
 #input and return the output in days, months, and years.
 
-print("Enter the number of days:", end=" ")
-days = int(input())
+days = int(input("Enter the number of days: "))
 months = days // 30
 daysLeft = days % 30
 days = days - days 
