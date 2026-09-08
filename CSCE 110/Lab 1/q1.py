@@ -9,5 +9,4 @@
 first = input()
 last = input()
 agePlusFour = int(input()) + 4
-print()
-print("Howdy!", first, last + "! You will be", agePlusFour, "in 4 years.")
+print("Howdy", first, last + "! You will be", agePlusFour, "in 4 years.")

@@ -7,9 +7,10 @@
 #input and return the output in days, months, and years.
 
 days = int(input())
+finalDays = days
 months = days // 30
 daysLeft = days % 30
 days = days - days 
 years = months // 12
 months = months - 12 * years
-print(days, "days =", years, "years,", months, "months, and", days, "days")
+print(finalDays, "days =", years, "years,", months, "months, and", daysLeft, "days")
