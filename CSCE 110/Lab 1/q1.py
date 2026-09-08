@@ -6,8 +6,8 @@
 #Description: e.g. This program asks the user their first and last name and
 #age, then returns the user's age in 4 years
 
-first = input("Enter first name: ")
-last = input("Enter last name: ")
-agePlusFour = int(input("Enter age: ")) + 4
+first = input()
+last = input()
+agePlusFour = int(input()) + 4
 print()
 print("Howdy!", first, last + "! You will be", agePlusFour, "in 4 years.")
